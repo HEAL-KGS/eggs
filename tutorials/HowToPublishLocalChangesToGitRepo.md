@@ -1,6 +1,6 @@
 How To Publish Local Changes to a Git Repo
 
-# Publishing Local Changes to a G`it` Repository
+# Publishing Local Changes to a Git Repository
 
 ---
 
