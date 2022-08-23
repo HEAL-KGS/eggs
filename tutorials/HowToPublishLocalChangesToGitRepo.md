@@ -29,7 +29,7 @@ Also, note that it doesn’t matter what conda environment you have activated wh
 
 First, we’ll navigate to our local copy of the repo from our home folder. 
 
-From this directory, use the `git status` command to view the changes we’ve made since the last push (see [note about `git pull`](https://www.notion.so/31242bce46c8497ba2b04467bfc8af1e)):
+From this directory, use the `git status` command to view the changes we’ve made since the last push:
 
 ```bash
 (eggs) $ git status
