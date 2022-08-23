@@ -5,7 +5,7 @@ How To Publish Local Changes to a Git Repo
 ---
 
 <aside>
-💡 ### TLDR;
+💡TLDR
 
 From the local repo directory:
 
