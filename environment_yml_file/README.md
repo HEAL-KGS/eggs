@@ -1,4 +1,4 @@
-# How to use the eggs_env.yml file to create an EGGS tailored conda environment:
+# How to use the eggs_env.yml file to create an EGGS-tailored conda environment:
     1. Download eggs_env.yml to your operating system (OS). 
     2. Move it so that it has a filepath of C:\Users\YOUR-OS-NAME
     3. Open up your terminal/command prompt and activate your base environment    (conda activate base)
