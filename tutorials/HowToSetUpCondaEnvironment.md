@@ -1,4 +1,4 @@
-How To Set Up Conda Environment
+### How To Set Up Conda Environment
 
 
 Make sure you’re in the correct directory.
