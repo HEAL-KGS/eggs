@@ -1,28 +1,3 @@
-### How To Set Up Conda Environment
-
-
-Make sure you’re in the correct directory.
-
-1. Create a conda environment
-
-```bash
-conda create -n eggs python=3.10
-```
-
-1. Activate the newly created environment
-
-```bash
-conda activate eggs
-```
-
-1. Install various common packages that you might use
-
-```bash
-conda install scipy pandas scikit-learn seaborn shapely xarray dask netCDF4 bottleneck rasterio rioxarray
-conda install jupyter
-conda install -c conda-forge geopandas
-```
-
 ### Accessing conda environments from Jupyter notebooks
 
 ---
