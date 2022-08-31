@@ -32,6 +32,9 @@ Study site at SD-6 LEMA + brief overview
 | AIM-HPA | Irrigation Status | 1984-2020 | Annual data for irrigation status clipped to the SD-6 area and surroundings | 
 | Cropland Data Layers | Land use/Land cover | 2006-2020 | Annual crop-specific land cover data clipped to the SD-6 area and surroundings | 
 
+![](/images/IrrigatedRainfedCropCount.png)
+
+
 ## **What types of uncertainty exist in estimating irrigation from ET data?**
 
 Workflow Chart
@@ -47,11 +50,21 @@ How I came up with ET-P for estimated irrigation
 
 ## **Evaluating Conservation Practices in LEMA/Non-LEMA**
 
+### Changes in Fallowing
 
+### Changes in Crop Type
+
+![](/images/ChangeInCrops.png)
+
+### Changes in Irrigation Efficiency
 
 ## **Future Work**
 
+- What other data should OpenET be coupled with so that farmers can accurately make self-governing management decisions?
+- What other analyses would be useful?
 
 
 ## **Appendix**
 
+![](https://www.agriculture.ks.gov/images/default-source/wms-images/sd6boundary.png?sfvrsn=68a6e98e_6)
+![](/images/workflow.png)
