@@ -20,7 +20,7 @@ Can different conservation practices be detected in the overall LEMA?
 
 Study site at SD-6 LEMA + brief overview
 
-!(https://www.agriculture.ks.gov/images/default-source/wms-images/sd6boundary.png?sfvrsn=68a6e98e_6)
+![](https://www.agriculture.ks.gov/images/default-source/wms-images/sd6boundary.png?sfvrsn=68a6e98e_6)
 
 ## **Data**
 
@@ -34,6 +34,11 @@ Study site at SD-6 LEMA + brief overview
 
 ## **What types of uncertainty exist in estimating irrigation from ET data?**
 
+Workflow Chart
+![](/images/workflow.png)
+Figure 1: Flowchart showing my workflow for this project.
+
+How I came up with ET-P for estimated irrigation
 
 
 ## **How do estimates of irrigation from ET data compare to field measurements of water use?**
