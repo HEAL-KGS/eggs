@@ -4,14 +4,13 @@ Ashley Grinstead, Sam Zipper
 
 Kansas Geological Survey, University of Kansas, Lawrence, Kansas, USA
 
-## **Abstract**
+## **Executive Summary**
 
-Big picture
+Agriculture is globally the main consumer of freshwater resources worldwide, and 20% of irrigation water is nonrenewable groundwater (Deines et al.,2020; Foster et al., 2021). Because the majority of agricultural water use is not monitored, irrigation is difficult to measure. As a result, aquifer depletion is happening at a rapid rate and threatening local economies, therefore remote sensing has been proposed as a way to fill in these data gaps (Foster et al., 2021). In the central High Plains Aquifer in the United States, farmers in Kansas have turned to self-governing methods in efforts to preserve groundwater aquifers that are used for irrigation. In response, the Kansas Geological Survey (KGS) proposed to investigate how socio-environmental and institutional diversity determines how well groundwater self-governance regimes do in response to social and environmental change at different scales. The plan will help groundwater-dependent agriculture communities create more effective, resilient, and adaptive groundwater management strategies (DISES). The purpose of this study is to analyze OpenET, a new evapotranspiration dataset, along with other datasets to identify the uncertainties and effectiveness of using satellite-based evapotranspiration data to estimate irrigation and identify different conservation practices. Our findings show that irrigation efficiency improvements, fallowing, and changing crops can be identified as soon as the first cycle of the Local Enhanced Management Area (LEMA) begins, but starts showing an increase after the first few years and into the second cycle. Our findings also highlight that OpenET can accurately be used for estimating irrigation, but further research would be required to understand how other components of water balance affect these calculations.
 
 ## **Motivation & Goals**
 
-Condensed intro
-
+### Questions
 Can different conservation practices be detected in the overall LEMA?
 
 - What types of uncertainties exist in estimating irrigation from evapotranspiration data and why are they important?
