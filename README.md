@@ -1,4 +1,2 @@
 # eggs
-repo for all things EGGS related
-
-***will be organized better later***
+repo for Ashley Grinstead's summer internship materials
