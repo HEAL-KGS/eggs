@@ -107,7 +107,7 @@ Since this study only spanned 12 weeks, it serves as a building block for future
 - What other data should OpenET be coupled with so that farmers can accurately make self-governing management decisions?
 - What other analyses would be useful?
 - How can water savings be quantified from the LEMA and how can they be attributed to specific management actions and decisions?
-- What other factors in the soil water balance model play a significant role in estimating groundwater reliant irrigation?
+- What other factors in the soil water balance model play a significant role in estimating groundwater reliant irrigation? 
 
 ## **8. Appendix & Sources**
 - Reference code used to make figures
