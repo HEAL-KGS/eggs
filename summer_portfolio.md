@@ -47,15 +47,11 @@ The study site for this project is the Sheridan County 6 (SD-6) LEMA in the Nort
 **Figure 5.** Flow chart of the workflow for this analysis. The blue boxes represent the data we worked with and the red boxes represent the uncertainties we encountered when sorting through the data. 
 
 ### **4.1 Irrigation Uncertainty**
-After researching different methods of estimating irrigation from evapotranspiration, we came up with the formula 
+After researching different methods of estimating irrigation from evapotranspiration, we decided to use 
 
 Irrigation (m^3^) = (ET (mm) - P (mm) / 1000 (mm)) x (m) x area of field (m^2^)
 
-This is a simplified version of the soil water balance model from the FAO Irrigation and Drainage paper regarding crop evapotranspiration
-
-Dc = Dp + ETc - P - Irr
-
-where Dc stands for soil water deficit (net irrigation requirement) in the rooting zone on current day, Dp for previous day soil moisture deficit, ETc is crop evapotranspiration, P is precipitation, and Irr is irrigation. We simplified it to just evapotranspiration and precipitation for ease of analysis. Since soil water balance is more complicated than just ET - P, further research would be suggested to fully understand how processes such as runoff, soil moisture, and deep percolation affect irrigation estimates. 
+This equation was inspired by the equation found in *Integrated Groundwater Management: Concepts, approaches, and challenges* written by Eamus et al., where ET - P was used to find the amount of groundwater transpired by crops. 
 
 ### **4.2 Evapotranspiration Algorithm Uncertainty**
 OpenET provides satellite-based evapotranspiration estimates based on an ensemble of 6 different evapotranspiration models that rely on publicly available data. The majority of the algorithms are based on the full or simplified versions of the Surface Energy Balance model, which accounts for the energy used for the process of evapotranspiration (OpenET). Specifically, the algorithms METRIC, geeSEBAL, and DisALEXI estimate energy balance using optical (short-wave) and thermal (long-wave) data. SSEBop and PT-JPL use simplifying assumptions where some of the variables in energy balance aren’t estimated or calculated. SIMS relies on surface reflectance data and crop type information to compute evapotranspiration as a function of canopy density using a crop coefficient approach for agricultural land. Additionally, each algorithm used to calculate the ensemble for OpenET are all slightly different when estimating evapotranspiration, meaning different types of biases can occur. For convenience, a short description of the known biases are listed below in Table 2. Details about each bias can also be found on OpenET’s website.
@@ -114,6 +110,6 @@ Since this study only spanned 12 weeks, it serves as a building block for future
 - Deines, Jillian M., et al. “Combining Remote Sensing and Crop Models to Assess the Sustainability of Stakeholder-Driven Groundwater Management in the US High Plains Aquifer.” Water Resources Research, vol. 57, no. 3, 2021, p. e2020WR027756. Wiley Online Library, https://doi.org/10.1029/2020WR027756.
 - Foster, T., et al. “Satellite-Based Monitoring of Irrigation Water Use: Assessing Measurement Errors and Their Implications for Agricultural Water Management Policy.” Water Resources Research, vol. 56, no. 11, 2020, p. e2020WR028378. Wiley Online Library, https://doi.org/10.1029/2020WR028378.
 - Vogels, Marjolein F. A., et al. “An Object-Based Image Analysis Approach to Assess Irrigation-Water Consumption from MODIS Products in Ethiopia.” International Journal of Applied Earth Observation and Geoinformation, vol. 88, June 2020, p. 102067. ScienceDirect, https://doi.org/10.1016/j.jag.2020.102067.
+- Eamus, D., Fu, B., Springer A., E, Stevens, L.E. (2016). Groundwater dependent ecosystems: Classification, identification techniques and threats. In A.J. Jakeman, O. Barretaeu, R. J. Hunt, J.D. Rinaudo, A.R. Ross (Eds.), Integrated Groundwater Management: Concepts, approaches, and challenges (pp. 332)SpringerOpen. 10.1007/978-3-319-23576-9
 - https://agriculture.ks.gov/divisions-programs/dwr/managing-kansas-water-resources/local-enhanced-management-areas/sheridan-county-6-lema
-- https://extension.umn.edu/irrigation/evapotranspiration-based-irrigation-scheduling-or-water-balance-method
 - https://openetdata.org/methodologies/
